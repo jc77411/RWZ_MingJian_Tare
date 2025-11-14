@@ -112,32 +112,6 @@ server {
   - 原因：域名未解析或解析到多台 IP（另一台未配置）
   - 解决：添加正确 A 记录，仅保留一条；或保证所有 IP 的站点配置一致
 
-## 发布到 GitHub
-- 初始化与忽略：
-```bash
-git init
-echo "node_modules/" >> .gitignore
-echo "dist/" >> .gitignore
-git add .
-git commit -m "chore: initial release"
-git branch -M main
-git remote add origin git@github.com:<your-account>/RWZ_MingJian.git
-git push -u origin main
-```
-- 在 GitHub 仓库设置中选择 License（或添加 `LICENSE` 文件）
-
-## 许可证建议
-- 若希望最大化开放与商用使用：`MIT`（简洁、宽松）
-- 若需要专利授权与更严谨术语：`Apache-2.0`
-- 若希望衍生必须开源：`GPL-3.0`（强 Copyleft）
-- 折中仅对修改文件开源：`MPL-2.0`（文件级 Copyleft）
-
-推荐：初期选 `MIT` 或 `Apache-2.0`（更易被广泛使用）。  
-同时更新 `package.json` 的 `license` 字段，例如：
-```json
-{ "license": "MIT" }
-```
-并在仓库根目录添加对应 `LICENSE` 文件。
 
 ## 后续规划
 - 丰富 `data/seed.json` 的人物/事件数据
