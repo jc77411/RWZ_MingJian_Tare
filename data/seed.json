@@ -1,0 +1,2972 @@
+{
+  "eras": [
+    {
+      "id": "hongwu",
+      "name": "洪武",
+      "emperor": {
+        "name": "朱元璋",
+        "reignTitle": "洪武",
+        "reignYears": "1368-1398",
+        "overview": "明朝开国皇帝，定制度、整饬吏治，奠定明初政治与法制基础。"
+      },
+      "eraBackground": "洪武开国，制度建设为核心，设立锦衣卫，加强中央集权，严格法度以整饬吏治。",
+      "majorTopics": ["开国定制", "洪武法制", "整饬吏治", "锦衣卫"],
+      "majorEventIds": [
+        "event_hongwu_system",
+        "event_jinyiwei"
+      ]
+    },
+    {
+      "id": "jianwen",
+      "name": "建文",
+      "emperor": {
+        "name": "朱允炆",
+        "reignTitle": "建文",
+        "reignYears": "1398-1402",
+        "overview": "以削藩为核心政策，激化与燕王朱棣的矛盾，最终引发靖难之役。"
+      },
+      "eraBackground": "建文朝以削藩为中心，试图弱化诸王权力；靖难之役改变了政局走向。",
+      "majorTopics": ["削藩政策", "靖难之役"],
+      "majorEventIds": ["event_jingnan"]
+    },
+    {
+      "id": "yongle",
+      "name": "永乐",
+      "emperor": {
+        "name": "朱棣",
+        "reignTitle": "永乐",
+        "reignYears": "1402-1424",
+        "overview": "政权稳固后大力开拓：迁都北京、下西洋、修《永乐大典》，军政并举。"
+      },
+      "eraBackground": "永乐盛世，军事与外交并举，设五军营与东厂，推进国家工程与海外航行。",
+      "majorTopics": ["迁都北京", "下西洋", "永乐大典", "军事制度建设"],
+      "majorEventIds": [
+        "event_jingnan",
+        "event_zhenghe",
+        "event_yongle_dadian",
+        "event_shenjiying",
+        "event_duoyansanwei",
+        "event_wujunying",
+        "event_sanqianying",
+        "event_dongchang"
+      ]
+    },
+    {
+      "id": "hongxi",
+      "name": "洪熙",
+      "emperor": {
+        "name": "朱高炽",
+        "reignTitle": "洪熙",
+        "reignYears": "1424-1425",
+        "overview": "以宽仁温和著称，短暂在位期间调整部分永乐政策，注重休养生息。"
+      },
+      "eraBackground": "洪熙朝承接永乐后期，内政以稳为主，对外征伐相对收敛，体现调适与休整。",
+      "majorTopics": ["政策调整", "休养生息"],
+      "majorEventIds": []
+    },
+    {
+      "id": "xuande",
+      "name": "宣德",
+      "emperor": {
+        "name": "朱瞻基",
+        "reignTitle": "宣德",
+        "reignYears": "1426-1435",
+        "overview": "承继永乐遗绪，内政务实、军事节制，文化建设延续，形成宣德时期的稳健格局。"
+      },
+      "eraBackground": "宣德朝以稳健施政、文化延续与边防整饬为特征，继续完善制度与治理。",
+      "majorTopics": ["内政稳健", "文化延续", "边防整饬"],
+      "majorEventIds": []
+    },
+    {
+      "id": "zhengtong",
+      "name": "正统",
+      "emperor": {
+        "name": "朱祁镇",
+        "reignTitle": "正统",
+        "reignYears": "1435-1449",
+        "overview": "前期亲征招致土木之变，政局剧震，边防重构与文臣主政成为阶段特征。"
+      },
+      "eraBackground": "正统朝发生土木之变，京师防御与北边战局成为焦点，文官集团与宦权影响交织。",
+      "majorTopics": ["土木之变", "京师防御", "北边战局"],
+      "majorEventIds": []
+    },
+    {
+      "id": "jingtai",
+      "name": "景泰",
+      "emperor": {
+        "name": "朱祁玉",
+        "reignTitle": "景泰",
+        "reignYears": "1450-1456",
+        "overview": "应对正统后遗问题，整饬边防与内政，稳定战局，形成过渡稳固格局。"
+      },
+      "eraBackground": "景泰朝以稳局与边防整饬为要务，文臣与将帅协作巩固京师与北边。",
+      "majorTopics": ["整饬边防", "稳定政局"],
+      "majorEventIds": []
+    },
+    {
+      "id": "tianshun",
+      "name": "天顺",
+      "emperor": {
+        "name": "朱祁镇",
+        "reignTitle": "天顺",
+        "reignYears": "1457-1464",
+        "overview": "复位后推进整顿，平衡文武与宦权，继续边防与内政调整。"
+      },
+      "eraBackground": "天顺朝延续整顿与边防政策，处理复位后的政治秩序与权力再平衡。",
+      "majorTopics": ["复位整顿", "权力再平衡", "边防政策"],
+      "majorEventIds": []
+    },
+    {
+      "id": "chenghua",
+      "name": "成化",
+      "emperor": {
+        "name": "朱见深",
+        "reignTitle": "成化",
+        "reignYears": "1465-1487",
+        "overview": "内政与文化并举，设西厂扩展监察；后宫影响政务，宦权与内阁互动复杂。"
+      },
+      "eraBackground": "成化时期建立西厂，监察体系扩展；后宫与宦权影响政务，内阁维持治理。",
+      "majorTopics": ["西厂设立", "后宫影响", "内阁与宦权"],
+      "majorEventIds": ["event_xichang"]
+    },
+    {
+      "id": "hongzhi",
+      "name": "弘治",
+      "emperor": {
+        "name": "朱祐樘",
+        "reignTitle": "弘治",
+        "reignYears": "1488-1505",
+        "overview": "弘治中兴，整饬吏治，内阁与文治并进，社会相对安稳。"
+      },
+      "eraBackground": "弘治以务实稳健著称，文臣群体活跃，内政修复与制度完善并举。",
+      "majorTopics": ["弘治中兴", "文治修复", "整饬吏治"],
+      "majorEventIds": []
+    },
+    {
+      "id": "zhengde",
+      "name": "正德",
+      "emperor": {
+        "name": "朱厚照",
+        "reignTitle": "正德",
+        "reignYears": "1506-1521",
+        "overview": "政风多变，宁王之乱、边防与海患交织，文武间张力加剧。"
+      },
+      "eraBackground": "正德时期出现宁王之乱与海患，军政协调与边防整饬成为焦点。",
+      "majorTopics": ["宁王之乱", "海患", "边防整饬"],
+      "majorEventIds": ["event_ningwang"]
+    },
+    {
+      "id": "jiajing",
+      "name": "嘉靖",
+      "emperor": {
+        "name": "朱厚熜",
+        "reignTitle": "嘉靖",
+        "reignYears": "1522-1566",
+        "overview": "大礼议与内廷权力更迭，抗倭为主线；文臣集团与宦权博弈。"
+      },
+      "eraBackground": "嘉靖时期礼制之争与抗倭并行，东南海防与内阁权力结构深受影响。",
+      "majorTopics": ["大礼议", "抗倭", "内阁博弈"],
+      "majorEventIds": []
+    },
+    {
+      "id": "longqing",
+      "name": "隆庆",
+      "emperor": {
+        "name": "朱载坖",
+        "reignTitle": "隆庆",
+        "reignYears": "1567-1572",
+        "overview": "承接嘉靖后期，推行隆庆和议与海防整顿，文武并进。"
+      },
+      "eraBackground": "隆庆时期推进与蒙古的和议与海防改革，国务逐步回稳。",
+      "majorTopics": ["隆庆和议", "海防改革", "政务修复"],
+      "majorEventIds": ["event_longqing_heyi"]
+    }
+    ,
+    {
+      "id": "wanli",
+      "name": "万历",
+      "emperor": {
+        "name": "朱翊钧",
+        "reignTitle": "万历",
+        "reignYears": "1573-1620",
+        "overview": "长期在位，万历三大征与东林党争并行，朝纲与边务交织复杂。"
+      },
+      "eraBackground": "万历时期经历援朝抗倭、宁夏与播州三大战事，内政上东林党与宦权互动影响政局。",
+      "majorTopics": ["万历三大征", "东林党争", "辽东战事"],
+      "majorEventIds": ["event_wanli_sanda", "event_sarhu", "event_donglin"]
+    }
+    ,
+    {
+      "id": "taichang",
+      "name": "泰昌",
+      "emperor": {
+        "name": "朱常洛",
+        "reignTitle": "泰昌",
+        "reignYears": "1620",
+        "overview": "在位极短，承接万历末政务，政局急转而下，为天启时期埋下伏笔。"
+      },
+      "eraBackground": "泰昌朝时间短暂，内政承压，权力结构与党争延续万历末期格局。",
+      "majorTopics": ["承接万历末政务", "党争延续"],
+      "majorEventIds": []
+    },
+    {
+      "id": "tianqi",
+      "name": "天启",
+      "emperor": {
+        "name": "朱由校",
+        "reignTitle": "天启",
+        "reignYears": "1621-1627",
+        "overview": "阉党专权与辽东战事并行，宁远大捷成为关键节点，政局动荡。"
+      },
+      "eraBackground": "天启时期魏忠贤把持朝政，辽东防务吃紧，宁远大捷提振军心。",
+      "majorTopics": ["阉党专政", "辽东战事", "宁远大捷"],
+      "majorEventIds": ["event_yandang", "event_liujunzi_an", "event_ningyuan"]
+    },
+    {
+      "id": "chongzhen",
+      "name": "崇祯",
+      "emperor": {
+        "name": "朱由检",
+        "reignTitle": "崇祯",
+        "reignYears": "1628-1644",
+        "overview": "改革与战事交织，松锦之战失利、甲申之变导致明朝覆灭。"
+      },
+      "eraBackground": "崇祯时期力图整顿，但内忧外患加剧，松锦失利与李自成入京终结明朝。",
+      "majorTopics": ["整顿改革", "松锦之战", "甲申之变"],
+      "majorEventIds": ["event_songjin", "event_jinzhou_weizhan", "event_songshan_zhanzheng", "event_xingshan_zhanzheng", "event_jiashen"]
+    }
+  ],
+  "persons": [
+    {
+      "id": "p_zhuyuanzhang",
+      "name": "朱元璋",
+      "styleName": null,
+      "posthumousTitle": "太祖高皇帝",
+      "origin": "安徽凤阳",
+      "roles": ["帝王"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "开国建制：确立明朝基本制度与法制，以法治吏，整饬政治生态（洪武）。",
+        "设锦衣卫加强皇权控制与情报监察体系（洪武）。",
+        "推行里甲、赋役与军户制度，夯实基层治理与兵役体系（洪武）。",
+        "整饬官僚与法度，发布诏令与律例以约束权臣与地方（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "生平履历\n元末（1328-1352）：出身贫苦农家，父母兄长死于疫；曾为地主放牛，后入皇觉寺为僧，云游四方，增长见识。\n起义（1352-1368）：1352年参加郭子兴红巾军，智勇双全渐露头角；娶郭子兴养女马氏为妻；自成一军，招贤纳士，攻占集庆（今南京）改名应天府，建立根据地。\n洪武（1368-1398）：1368年称帝，国号大明，年号洪武，定都应天；先后平定陈友谅、张士诚等割据势力，统一全国；在位期间实行休养生息，兴修水利、减轻赋税、鼓励垦荒，恢复经济；改革政治制度，加强中央集权，推里甲与军户以固基层与兵役；晚年整饬官僚与法度，亦以诛戮权臣巩固皇权；1398年病逝，葬明孝陵。\n核心事迹与时代关联\n经济：休养生息、垦荒与水利、减税重农，恢复社会经济；\n政治：确立中央集权框架，整饬吏治，律例与监察并举；\n基层与兵役：里甲与军户制度构建基层组织与兵役编制；\n军事：武定祸乱，统一中国。\n史书评说\n太祖以聪明神武之资，抱济世安民之志……武定祸乱，文致太平，太祖实身兼之。（参考《明史·太祖本纪》要义）\n轶事典故\n传称微服私访，闻地方加派扰民，即严惩贪官，强调整饬吏治与法度。\n相关人物\n马皇后、朱标、徐达、常遇春、刘基、李善长。"
+      }
+    },
+    {
+      "id": "p_zhubiao",
+      "name": "朱标",
+      "styleName": null,
+      "posthumousTitle": "懿文太子",
+      "origin": "安徽凤阳",
+      "roles": ["太子"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "洪武时期确立为太子，性情宽厚，承平之治的潜在推动者。"
+      ],
+      "bioByEra": {
+        "hongwu": "被立为太子，性格仁厚，有稳定政局的可能性，英年早逝影响了后续皇位传承。"
+      }
+    },
+    {
+      "id": "p_xuda",
+      "name": "徐达",
+      "styleName": null,
+      "posthumousTitle": "中山王",
+      "origin": "安徽濠州",
+      "roles": ["将帅"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "作为开国元勋，率军攻伐，立下汗马功劳，奠定明初军权基础（洪武）。",
+        "参与多路征讨与战略推进，巩固北方与要地防务（洪武）。",
+        "统筹大军后勤与兵制执行，提升作战与统御效率（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "统兵大将，参与关键战役并统筹征讨；巩固要地防务与后勤兵制执行，战功显赫，受封中山王。"
+      }
+    },
+    {
+      "id": "p_liushouyou",
+      "name": "刘基",
+      "styleName": "伯温",
+      "posthumousTitle": null,
+      "origin": "浙江青田",
+      "roles": ["文臣"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "作为谋臣与制度设计者，参与制定明初制度架构（洪武）。",
+        "规划军政与法制条目，助力中央集权与官僚体制成型（洪武）。",
+        "献策经济与基层治理方案，完善赋役与行政规范（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "生平履历\n起义与参谋：早年以文谋入幕，辅佐太祖于军政筹划。\n洪武（1368-1398）：协助建立官僚体制与法度，提出军政与律令条目；在经济与基层治理上献策，完善赋役与行政规范；参与礼制与文治安排，整合典籍与制度条文。\n核心事迹与时代关联\n制度设计：官僚体制与法度规划；\n经济与基层：赋役与行政规范完善；\n礼制文化：典籍与礼制整合。\n史书评说\n以筹策精密、制度远见著称，为文治基础关键人物。\n轶事典故\n以直言建策获采纳，重规范、尚法度。\n相关人物\n朱元璋、宋濂、李善长。"
+      }
+    },
+    {
+      "id": "p_songlian",
+      "name": "宋濂",
+      "styleName": "景濂",
+      "posthumousTitle": null,
+      "origin": "浙江浦江",
+      "roles": ["文臣"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "参与《明太祖实录》与典籍整理，推动文治建设（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "主持史志与典籍整理，协助成文治基础，倡导学术规范。"
+      }
+    },
+    {
+      "id": "p_huweiyong",
+      "name": "胡惟庸",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "权臣之争焦点，牵涉政治斗争与法制严苛化的背景（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "在权力结构中引发重大政治风波，成为洪武朝政治斗争的代表性人物。"
+      }
+    },
+    {
+      "id": "p_zhuyunwen",
+      "name": "朱允炆",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "南京",
+      "roles": ["帝王"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "削藩政策试图弱化诸王，最终引发靖难之役（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "在位期间以削藩为核心政策，政局动荡，靖难之役爆发后失位。"
+      }
+    },
+    {
+      "id": "p_zhudi",
+      "name": "朱棣",
+      "styleName": null,
+      "posthumousTitle": "成祖文皇帝",
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["yongle"],
+      "relations": [],
+      "coreDeeds": [
+        "靖难之役夺位，后迁都北京、下西洋、修《永乐大典》，形成永乐盛世（永乐）。"
+      ],
+      "bioByEra": {
+        "yongle": "生平履历\n靖难（1399-1402）：以清君侧为名起兵，夺位入京。\n永乐（1402-1424）：迁都北京，修《永乐大典》，设五军营与东厂，扩展情报与军制；海外交流方面支持郑和下西洋，展示国力与开放。\n核心事迹与时代关联\n军政并举：五军营、东厂与情报监察体系；\n工程文化：迁都与《永乐大典》修纂；\n外交海洋：下西洋推动交流。\n史书评说\n以雄才大略与工程魄力著称，永乐盛世的塑造者。\n轶事典故\n巡幸督工程，尚实效与规制。\n相关人物\n郑和、姚广孝、盛庸、铁铉。"
+      }
+    },
+    {
+      "id": "p_zhenghe",
+      "name": "郑和",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "云南",
+      "roles": ["外交"],
+      "eraTags": ["yongle"],
+      "relations": [],
+      "coreDeeds": [
+        "奉命下西洋，开拓海上交流，展示国家实力（永乐）。"
+      ],
+      "bioByEra": {
+        "yongle": "生平履历\n永乐使节：奉命组建远航船队，率队多次下西洋。\n远航路线：经东南亚、南亚与东非，拓展贸易与文化交流。\n核心事迹与时代关联\n外交海洋：以国家使节身份推动海上交流与展示国威；\n技术与组织：大型船队与补给体系。\n史书评说\n以航海组织与外交能力见称，海上交流代表人物。\n轶事典故\n远航归来，献奇珍与见闻。\n相关人物\n朱棣、姚广孝。"
+      }
+    },
+    {
+      "id": "p_yaoguangxiao",
+      "name": "姚广孝",
+      "styleName": "道衍",
+      "posthumousTitle": null,
+      "origin": "浙江",
+      "roles": ["文臣"],
+      "eraTags": ["yongle"],
+      "relations": [],
+      "coreDeeds": [
+        "靖难之役中关键谋士，后续参与永乐政务谋划（永乐）。"
+      ],
+      "bioByEra": {
+        "yongle": "生平履历\n靖难谋士：参与策划与决断，辅佐夺位。\n永乐政务：在制度安排与工程推进中献策。\n核心事迹与时代关联\n谋略与制度：政务谋划与工程组织；\n文化礼制：典籍与礼制讨论。\n史书评说\n深谋善断，善于制度设计。\n轶事典故\n以简朴闻名，重事实与效果。\n相关人物\n朱棣、郑和。"
+      }
+    },
+    {
+      "id": "p_changyuchun",
+      "name": "常遇春",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "开国名将，随军征战，参与关键战役，奠定明初军事基础（洪武）。",
+        "推进攻守转换与快速兵团调度，提升战役节奏（洪武）。",
+        "屡克要城，巩固战线，为统一奠基（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "生平履历\n起义征战：自序开锋，随军纵横，攻守转换迅捷。\n洪武（1368-1398）：参与多场关键战役，屡克要城，兵团调度敏捷，推动战役节奏，巩固战线，为统一奠基。\n核心事迹与时代关联\n军事：快节奏兵团机动、攻守转换；\n战线巩固：要城攻取与补给护航。\n史书评说\n以勇决果断、善战见称，开国名将之一。\n轶事典故\n营中以疾速行军闻名。\n相关人物\n朱元璋、徐达、冯胜。"
+      }
+    },
+    {
+      "id": "p_fuyoude",
+      "name": "傅友德",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "开国名将，参与明初征讨与巩固边疆（洪武）。",
+        "组织边防巡哨与据点建设，稳固边疆治理（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "生平履历\n起义征战：早年随军征战，累功晋阶。\n洪武（1368-1398）：在北方与边疆多次战事中表现突出；推进边防巡哨与据点建设，稳固边疆治理。\n核心事迹与时代关联\n边防组织：据点建设与巡哨体系；\n战事：多次征战与要地守御。\n史书评说\n以稳健守备与组织能力见称。\n相关人物\n徐达、冯胜。"
+      }
+    },
+    {
+      "id": "p_fengsheng",
+      "name": "冯胜",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "开国名将，参与北伐征战与政权稳固（洪武）。",
+        "承担要地防务与兵站建设，保障战线与补给（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "生平履历\n起义征战：随军参与各地攻守。\n洪武（1368-1398）：在北伐与要地防务中承担重任；推进兵站与补给建设，保障战线稳定。\n核心事迹与时代关联\n后勤与防务：兵站补给体系与要地防线。\n史书评说\n以务实稳健著称。\n相关人物\n徐达、常遇春、傅友德。"
+      }
+    },
+    {
+      "id": "p_lanyu",
+      "name": "蓝玉",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "开国武将，战功显著；后期牵涉政治风波（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "明初著名武将，曾立战功，后期成为政治斗争中争议人物。"
+      }
+    },
+    {
+      "id": "p_dengyu",
+      "name": "邓愈",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "开国名将，随军征战，参与战略要地的攻守（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "参与明初各地战事，是开国军事体系的重要成员。"
+      }
+    },
+    {
+      "id": "p_gengbingwen",
+      "name": "耿炳文",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "开国名将，统兵参与关键战役（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "为明初军事巩固贡献力量。"
+      }
+    },
+    {
+      "id": "p_tanghe",
+      "name": "汤和",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "开国名将，协助统一与政权稳固（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "在明初统一进程与政权稳固中发挥作用。"
+      }
+    },
+    {
+      "id": "p_liwenzhong",
+      "name": "李文忠",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "开国将领，参与多地征讨（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "在明初征战中多有表现，为开国过程贡献力量。"
+      }
+    },
+    {
+      "id": "p_zhuwenzheng",
+      "name": "朱文正",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "明初将领，参与开国相关战事（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "在开国与政权稳固过程中担任要职。"
+      }
+    },
+    {
+      "id": "p_lishanchang",
+      "name": "李善长",
+      "styleName": "公辅",
+      "posthumousTitle": null,
+      "origin": "安徽定远",
+      "roles": ["文臣"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "洪武初年丞相，主持政务与制度建设，位极人臣（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "生平履历\n起义辅政：早年入幕，参与军政筹划与政务组织。\n洪武（1368-1398）：为开国丞相，统筹百官与制度设计，主持政务与律令实施，奠定政务框架。\n核心事迹与时代关联\n政务组织：百官统筹与制度建立；\n法度执行：律令与监察并进。\n史书评说\n开国宰辅，以组织与执行能力著称。\n轶事典故\n善理繁务，崇尚简约与纪律。\n相关人物\n朱元璋、刘基、宋濂。"
+      }
+    },
+    {
+      "id": "p_xushouhui",
+      "name": "徐寿辉",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["敌人"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "明初群雄之一，与朱元璋对抗（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "在明初割据局面中与朱元璋形成对峙。"
+      }
+    },
+    {
+      "id": "p_wangbaobao",
+      "name": "王保保",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["敌人"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "在明初战事中与朱元璋阵营对抗（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "在明初军事冲突中扮演对手角色。"
+      }
+    },
+    {
+      "id": "p_chenyouliang",
+      "name": "陈友谅",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "湖北",
+      "roles": ["敌人"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "明初强劲对手之一，于鄱阳湖之战与朱元璋决战（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "与朱元璋争夺天下，鄱阳湖败后势力衰退。"
+      }
+    },
+    {
+      "id": "p_zhangshicheng",
+      "name": "张士诚",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "江苏",
+      "roles": ["敌人"],
+      "eraTags": ["hongwu"],
+      "relations": [],
+      "coreDeeds": [
+        "明初群雄之一，吴地割据，与朱元璋长期对峙（洪武）。"
+      ],
+      "bioByEra": {
+        "hongwu": "据吴地，后兵败势衰，被并入朱氏政权。"
+      }
+    },
+    {
+      "id": "p_guoying",
+      "name": "郭英",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝将领，参与对燕军的防御与战事部署（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "在削藩与靖难背景下承担军事职责，参与京畿与要地防务。"
+      }
+    },
+    {
+      "id": "p_lijinglong",
+      "name": "李景隆",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝重要将领，靖难之役中承担主力出征与京师防御任务（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "生平履历\n建文（1399-1402）：受命为主将，统兵对抗燕军，承担出征与京师防御任务；战事指挥饱受争议，影响战局与政局。\n核心事迹与时代关联\n军事与政局：统兵与京防安排、指挥争议。\n史书评说\n指挥能力评价不一。\n相关人物\n铁铉、盛庸。"
+      }
+    },
+    {
+      "id": "p_yangsong",
+      "name": "杨松",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝将领，参与靖难相关战事与调度（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "奉诏参与军务，在南方及要地配合作战与守备。"
+      }
+    },
+    {
+      "id": "p_panzhong",
+      "name": "潘忠",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝将领，靖难期间参与对燕军作战与防线维持（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "在战事中承担一线军事职责，协同诸军执行命令。"
+      }
+    },
+    {
+      "id": "p_zhaineng",
+      "name": "翟能",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝将领，参与靖难相关战事，执行调度与守御（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "配合诸军部署防务，于关键节点履行军令。"
+      }
+    },
+    {
+      "id": "p_shengyong",
+      "name": "盛庸",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jianwen", "yongle"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝将领，靖难期间在南军序列中承担防御与反击任务（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "生平履历\n建文（1399-1402）：在南军序列中承担防御与反击任务，组织兵力与防线。\n核心事迹与时代关联\n防御与反击：要地兵力组织与战线维持。",
+        "yongle": "生平履历\n永乐（1402-1424）：在朝代更替后继续参与军事体系，承担要地整顿。\n核心事迹与时代关联\n军务整顿：要地防务与编制衔接。"
+      }
+    },
+    {
+      "id": "p_tiexuan",
+      "name": "铁铉",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝名将，坚守济南等要地，抵御燕军攻势（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "以坚守闻名，于要冲之地有效迟滞燕军推进。"
+      }
+    },
+    {
+      "id": "p_pingan",
+      "name": "平安",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝将领，于靖难之役参与防守与战事协调（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "在军务中承担具体守备与支援任务，配合指挥体系运转。"
+      }
+    },
+    {
+      "id": "p_xuhuizu",
+      "name": "徐辉祖",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝将领，承袭军功体系，参与对燕作战与防务（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "在军队序列中担任要职，参与关键战役与调度。"
+      }
+    },
+    {
+      "id": "p_huangzicheng",
+      "name": "黄子澄",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝重臣，力主削藩，参与定策与政务推进（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "执政中坚之一，围绕削藩与改革提出主张，靖难后遭祸。"
+      }
+    },
+    {
+      "id": "p_qitai",
+      "name": "齐泰",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝重臣，与黄子澄同主削藩，参与政务与军政协调（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "为建文朝要员，推行削藩路线与相关政策，靖难后罹祸。"
+      }
+    },
+    {
+      "id": "p_fangxiaoru",
+      "name": "方孝孺",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jianwen"],
+      "relations": [],
+      "coreDeeds": [
+        "建文朝学者与言官，直陈时政，参与建文朝文治与策论（建文）。"
+      ],
+      "bioByEra": {
+        "jianwen": "以直谏著称，于建文朝倡议文治与正道，靖难后以气节名世。"
+      }
+    },
+    {
+      "id": "p_tanyuan",
+      "name": "谭渊",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["yongle"],
+      "relations": [],
+      "coreDeeds": [
+        "永乐朝将领，参与北征与边防军务，配合军事制度建设（永乐）。"
+      ],
+      "bioByEra": {
+        "yongle": "在北方战事与边防布置中发挥作用，服务永乐时期军政并举的格局。"
+      }
+    },
+    {
+      "id": "p_zhangyu",
+      "name": "张玉",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["yongle"],
+      "relations": [],
+      "coreDeeds": [
+        "永乐朝将领，随征塞外，参与军务部署与要地守备（永乐）。"
+      ],
+      "bioByEra": {
+        "yongle": "在永乐时期的北征行动与防务中承担职责，协助巩固边疆。"
+      }
+    },
+    {
+      "id": "p_zhuneng",
+      "name": "朱能",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["yongle"],
+      "relations": [],
+      "coreDeeds": [
+        "永乐朝将领，参与北征与边疆防务，配合中央军制改革（永乐）。"
+      ],
+      "bioByEra": {
+        "yongle": "在军队编制完善与对外征战中任职，体现永乐时期军事扩张。"
+      }
+    },
+    {
+      "id": "p_xiejing",
+      "name": "解缙",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["yongle"],
+      "relations": [],
+      "coreDeeds": [
+        "永乐朝重臣，主持《永乐大典》编纂等文治工程（永乐）。"
+      ],
+      "bioByEra": {
+        "yongle": "参与文化与制度建设，是永乐时期文治代表性人物之一。"
+      }
+    },
+    {
+      "id": "p_zhugaochi",
+      "name": "朱高炽",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["hongxi"],
+      "relations": [],
+      "coreDeeds": [
+        "洪熙帝，在位短暂，调整永乐时期部分政策，倡导休养生息（洪熙）。"
+      ],
+      "bioByEra": {"hongxi": "以温和稳健著称，注重内政调适与社会休养。"}
+    },
+    {
+      "id": "p_zhugaoxu",
+      "name": "朱高煦",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["竞争"],
+      "eraTags": ["hongxi"],
+      "relations": [],
+      "coreDeeds": [
+        "永乐、洪熙时期的皇子与竞争者，与皇位承继存矛盾与竞争（洪熙）。"
+      ],
+      "bioByEra": {"hongxi": "对皇位承继形成竞争，影响政局稳定。"}
+    },
+    {
+      "id": "p_zhangfu",
+      "name": "张辅",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["hongxi"],
+      "relations": [],
+      "coreDeeds": [
+        "洪熙时期将领，参与边防与军务，服务于朝廷军事体系（洪熙）。"
+      ],
+      "bioByEra": {"hongxi": "承担军事职责与防务安排，配合朝廷政策调整下的军务需求。"}
+    },
+    {
+      "id": "p_yangshiqi",
+      "name": "杨士奇",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongxi"],
+      "relations": [],
+      "coreDeeds": [
+        "洪熙时期重臣，参与内政调适与政策制定，被誉为三杨之一（洪熙）。"
+      ],
+      "bioByEra": {"hongxi": "辅政有方，倡稳健治术，三杨之一。"}
+    },
+    {
+      "id": "p_yangrong",
+      "name": "杨荣",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongxi"],
+      "relations": [],
+      "coreDeeds": [
+        "洪熙时期重臣，参与政务与文治建设，三杨之一（洪熙）。"
+      ],
+      "bioByEra": {"hongxi": "在朝参与政务与文治规划，三杨之一。"}
+    },
+    {
+      "id": "p_yangpu",
+      "name": "杨溥",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongxi"],
+      "relations": [],
+      "coreDeeds": [
+        "洪熙时期重臣，参与政务与制度完善，三杨之一（洪熙）。"
+      ],
+      "bioByEra": {"hongxi": "参与制度完善与政务协调，三杨之一。"}
+    },
+    {
+      "id": "p_zhuzhanji",
+      "name": "朱瞻基",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["xuande"],
+      "relations": [],
+      "coreDeeds": [
+        "宣德帝，承继永乐遗绪，内政务实、文化延续，形成宣德时期稳健格局（宣德）。"
+      ],
+      "bioByEra": {"xuande": "政务稳健、文化建设延续，边防整饬。"}
+    },
+    {
+      "id": "p_zhuqizhen",
+      "name": "朱祁镇",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["zhengtong", "tianshun"],
+      "relations": [],
+      "coreDeeds": [
+        "正统亲征导致土木之变，后在天顺复位，继续推进整顿（正统/天顺）。"
+      ],
+      "bioByEra": {
+        "zhengtong": "前期亲征北伐，爆发土木之变，政局巨震。",
+        "tianshun": "复位后整顿政务，平衡文武与宦权。"
+      }
+    },
+    {
+      "id": "p_zhuqiyu",
+      "name": "朱祁玉",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["jingtai"],
+      "relations": [],
+      "coreDeeds": [
+        "景泰帝，稳局整边，处理正统后遗与防务（景泰）。"
+      ],
+      "bioByEra": {"jingtai": "整饬边防、稳住政局，推进务实治理。"}
+    },
+    {
+      "id": "p_tuohuan",
+      "name": "脱欢",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["竞争"],
+      "eraTags": ["zhengtong"],
+      "relations": [],
+      "coreDeeds": ["与明在北边对峙，参与土木之变相关战局（正统）。"],
+      "bioByEra": {"zhengtong": "北边强敌之一，于土木之变前后牵动战局。"}
+    },
+    {
+      "id": "p_yexian",
+      "name": "也先",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["竞争"],
+      "eraTags": ["zhengtong"],
+      "relations": [],
+      "coreDeeds": ["土木之变关键对手，挟明帝王于北境，影响深远（正统）。"],
+      "bioByEra": {"zhengtong": "土木之变的主导势力之一，造成京师防御压力。"}
+    },
+    {
+      "id": "p_beiluo",
+      "name": "孛罗",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["竞争"],
+      "eraTags": ["zhengtong"],
+      "relations": [],
+      "coreDeeds": ["北边势力成员，参与与明的军事对峙（正统）。"],
+      "bioByEra": {"zhengtong": "在北边冲突中参与对峙，牵涉边防战事。"}
+    },
+    {
+      "id": "p_yanghong",
+      "name": "杨洪",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["zhengtong"],
+      "relations": [],
+      "coreDeeds": ["正统时期将领，参与北边军务与防御（正统）。"],
+      "bioByEra": {"zhengtong": "在北边战事中承担军务，协防要地。"}
+    },
+    {
+      "id": "p_zhuyong",
+      "name": "朱勇",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["zhengtong"],
+      "relations": [],
+      "coreDeeds": ["正统时期将领，参与北边防务与战事（正统）。"],
+      "bioByEra": {"zhengtong": "在战事中承担兵务，护卫边防。"}
+    },
+    {
+      "id": "p_kuangye",
+      "name": "邝埜",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅", "文臣"],
+      "eraTags": ["tianshun"],
+      "relations": [],
+      "coreDeeds": ["天顺时期由武转文，参与政务与军务协调（天顺）。"],
+      "bioByEra": {"tianshun": "以军功起家，后转入文治岗位，协同政务。"}
+    },
+    {
+      "id": "p_guodeng",
+      "name": "郭登",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jingtai"],
+      "relations": [],
+      "coreDeeds": ["景泰时期将领，参与北边战事与防务（景泰）。"],
+      "bioByEra": {"jingtai": "在景泰朝任军务，巩固边防。"}
+    },
+    {
+      "id": "p_shiheng",
+      "name": "石亨",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["tianshun"],
+      "relations": [],
+      "coreDeeds": ["天顺复位关键武将之一，参与政局变动与军务（天顺）。"],
+      "bioByEra": {"tianshun": "在复位与整顿中居要职，参与军政博弈。"}
+    },
+    {
+      "id": "p_suntang",
+      "name": "孙镗",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jingtai", "tianshun"],
+      "relations": [],
+      "coreDeeds": ["景泰与天顺时期将领，参与北边战事与政局调整（景泰/天顺）。"],
+      "bioByEra": {
+        "jingtai": "在景泰朝积极参与军务与防务。",
+        "tianshun": "继续担任军职，服务政局整顿。"
+      }
+    },
+    {
+      "id": "p_wangzhen",
+      "name": "王振",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["zhengtong"],
+      "relations": [],
+      "coreDeeds": ["正统时期权势人物，被指决策失当，引发土木之变祸端（正统）。"],
+      "bioByEra": {"zhengtong": "权势显赫，决策引发严重后果，史论多以奸臣评之。"}
+    },
+    {
+      "id": "p_yuqian",
+      "name": "于谦",
+      "styleName": "廷益",
+      "posthumousTitle": null,
+      "origin": "浙江杭州（仁和）",
+      "roles": ["文臣"],
+      "eraTags": ["zhengtong", "jingtai"],
+      "relations": [],
+      "coreDeeds": ["正统危局时主持京师防御，于景泰朝稳局有功（正统/景泰）。"],
+      "bioByEra": {
+        "zhengtong": "生平履历\n正统（1435-1449）：土木之变后危局当前，主镇守京师，组织防御、整肃军纪，稳定都城防线。\n核心事迹与时代关联\n京师防御：部署城防与军纪整顿；\n政务筹划：稳住人心与官僚秩序。\n史书评说\n以忠勤稳健、临危不乱著称。\n相关人物\n朱祁镇、王直。",
+        "jingtai": "生平履历\n景泰（1450-1456）：继续整饬边防与内政，巩固政局，完善防御与补给体系。\n核心事迹与时代关联\n稳局与边防：制度与防线并行；\n史书评说\n以功业显著、德望素高著称。\n相关人物\n朱祁玉、杨一清。"
+      }
+    },
+    {
+      "id": "p_wangzhi",
+      "name": "王直",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["zhengtong"],
+      "relations": [],
+      "coreDeeds": ["正统时期文臣，参与政务与边防讨论（正统）。"],
+      "bioByEra": {"zhengtong": "生平履历\n正统（1435-1449）：在政务中参与谋划与协调，配合边防讨论与行政推进。\n核心事迹与时代关联\n政务谋划：官政协调与讨论。"}
+    },
+    {
+      "id": "p_huying",
+      "name": "胡濙",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["zhengtong"],
+      "relations": [],
+      "coreDeeds": ["正统时期文臣，参与政务与文教（正统）。"],
+      "bioByEra": {"zhengtong": "在文教与政务方面任事。"}
+    },
+    {
+      "id": "p_jingyuan",
+      "name": "井源",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["zhengtong"],
+      "relations": [],
+      "coreDeeds": ["正统时期文臣，参与政务（正统）。"],
+      "bioByEra": {"zhengtong": "在政务体系中承担职责。"}
+    },
+    {
+      "id": "p_wangyou",
+      "name": "王祐",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["zhengtong"],
+      "relations": [],
+      "coreDeeds": ["正统时期文臣，参与政务与协调（正统）。"],
+      "bioByEra": {"zhengtong": "参与文臣集团治理与协调。"}
+    },
+    {
+      "id": "p_xuyouzhen",
+      "name": "徐有贞",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["tianshun"],
+      "relations": [],
+      "coreDeeds": ["天顺时期文臣，参与复位后政务与整顿（天顺）。"],
+      "bioByEra": {"tianshun": "在复位后政局整顿中居要职。"}
+    },
+    {
+      "id": "p_lixian",
+      "name": "李贤",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["tianshun"],
+      "relations": [],
+      "coreDeeds": ["天顺时期文臣，参与政务与制度完善（天顺）。"],
+      "bioByEra": {"tianshun": "在制度完善与政务协调上有贡献。"}
+    },
+    {
+      "id": "p_caojixiang",
+      "name": "曹吉祥",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["tianshun"],
+      "relations": [],
+      "coreDeeds": ["天顺时期参与政务与权力结构变动（天顺）。"],
+      "bioByEra": {"tianshun": "在权力结构变动中扮演角色。"}
+    },
+    {
+      "id": "p_wujin",
+      "name": "吴瑾",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jingtai"],
+      "relations": [],
+      "coreDeeds": ["景泰时期文臣，参与政务（景泰）。"],
+      "bioByEra": {"jingtai": "参与政务与治理。"}
+    },
+    {
+      "id": "p_jiangyuan",
+      "name": "江渊",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jingtai"],
+      "relations": [],
+      "coreDeeds": ["景泰时期文臣，参与政务与协调（景泰）。"],
+      "bioByEra": {"jingtai": "承担文臣职责与政务协调。"}
+    },
+    {
+      "id": "p_shanglu",
+      "name": "商辂",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["tianshun"],
+      "relations": [],
+      "coreDeeds": ["天顺时期文臣，参与政务与文化事务（天顺）。"],
+      "bioByEra": {"tianshun": "在政务与文化事务上有参与。"}
+    },
+    {
+      "id": "p_zhujianshen",
+      "name": "朱见深",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化帝，设西厂扩展监察，维持文化与内政建设（成化）。"],
+      "bioByEra": {"chenghua": "在位期间设立西厂，内政与文化并举。"}
+    },
+    {
+      "id": "p_wanguifei",
+      "name": "万贵妃",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["后宫"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期后宫要员，对政务与皇帝决策具有影响（成化）。"],
+      "bioByEra": {"chenghua": "深受恩宠，影响朝政取向与人事。"}
+    },
+    {
+      "id": "p_jifei",
+      "name": "纪妃",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["后宫"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期后宫人物，于内廷与人事有影响（成化）。"],
+      "bioByEra": {"chenghua": "在后宫体系中具有地位与影响。"}
+    },
+    {
+      "id": "p_shangming",
+      "name": "尚铭",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期宦权人物，被指干预政务与人事（成化）。"],
+      "bioByEra": {"chenghua": "在宦权与监察体系中影响政务。"}
+    },
+    {
+      "id": "p_liangfang",
+      "name": "梁芳",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期宦权人物，参与西厂相关权力结构（成化）。"],
+      "bioByEra": {"chenghua": "介入监察与人事，史论多有争议。"}
+    },
+    {
+      "id": "p_wangzhi_ch",
+      "name": "汪直",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["西厂关键人物之一，掌管监察与情报，权势显赫（成化）。"],
+      "bioByEra": {"chenghua": "主持西厂运作，扩展监察体系。"}
+    },
+    {
+      "id": "p_chenzhun",
+      "name": "陈准",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期宦权人物，参与内廷与监察事务（成化）。"],
+      "bioByEra": {"chenghua": "在内廷与监察体系中承担角色。"}
+    },
+    {
+      "id": "p_huaien",
+      "name": "怀恩",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期宦权人物，参与政务与权力结构的运作（成化）。"],
+      "bioByEra": {"chenghua": "在权力结构与政务中发挥作用。"}
+    },
+    {
+      "id": "p_liuji",
+      "name": "刘吉",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期文臣，参与内阁与政务（成化）。"],
+      "bioByEra": {"chenghua": "内阁文臣，参与政策与政务协调。"}
+    },
+    {
+      "id": "p_wanan",
+      "name": "万安",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期文臣，参与内阁运作（成化）。"],
+      "bioByEra": {"chenghua": "在内阁与政务体系中任事。"}
+    },
+    {
+      "id": "p_pengshi",
+      "name": "彭时",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期文臣，参与文化与政务（成化）。"],
+      "bioByEra": {"chenghua": "在文化与政务上有贡献。"}
+    },
+    {
+      "id": "p_liuxu",
+      "name": "刘栩",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期文臣，参与政务与制度（成化）。"],
+      "bioByEra": {"chenghua": "在制度与政务上任事。"}
+    },
+    {
+      "id": "p_lizisheng",
+      "name": "李孜省",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["chenghua"],
+      "relations": [],
+      "coreDeeds": ["成化时期文臣，参与内阁与政务安排（成化）。"],
+      "bioByEra": {"chenghua": "在内阁体系中担任要职。"}
+    },
+    {
+      "id": "p_zhuyoucheng",
+      "name": "朱祐樘",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治帝，整饬吏治、修复文治，被誉为弘治中兴（弘治）。"],
+      "bioByEra": {"hongzhi": "施政稳健，重视内阁与文治，社会相对安稳。"}
+    },
+    {
+      "id": "p_xingxianwang",
+      "name": "兴献王",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["帝王"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期追封，礼制调整的重要象征，牵动大礼议（嘉靖）。"],
+      "bioByEra": {"jiajing": "被嘉靖追尊，成为礼制与权力结构调整的焦点。"}
+    },
+    {
+      "id": "p_zhuhouzhao",
+      "name": "朱厚照",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["zhengde"],
+      "relations": [],
+      "coreDeeds": ["正德帝，政风多变，期间爆发宁王之乱与海患（正德）。"],
+      "bioByEra": {"zhengde": "政局复杂，边防与内政张力并存。"}
+    },
+    {
+      "id": "p_zhuhousong",
+      "name": "朱厚熜",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖帝，主导大礼议，抗倭为主线，权力结构多次调整（嘉靖）。"],
+      "bioByEra": {"jiajing": "礼制与内廷权力更迭显著，东南海防为重点。"}
+    },
+    {
+      "id": "p_zhuzaihou",
+      "name": "朱载坖",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["longqing"],
+      "relations": [],
+      "coreDeeds": ["隆庆帝，推进隆庆和议与海防整顿（隆庆）。"],
+      "bioByEra": {"longqing": "政务修复与对外和议并举，国家逐步回稳。"}
+    },
+    {
+      "id": "p_ningwang",
+      "name": "宁王",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "南昌",
+      "roles": ["竞争"],
+      "eraTags": ["zhengde"],
+      "relations": [],
+      "coreDeeds": ["宁王之乱主导者，正德时期挑战中央权威（正德）。"],
+      "bioByEra": {"zhengde": "举兵叛乱，最终被平定。"}
+    },
+    {
+      "id": "p_wangzhi_wokou",
+      "name": "汪直",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["竞争"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["倭寇首领之一，于东南沿海形成严重海患（嘉靖）。"],
+      "bioByEra": {"jiajing": "为东南海患关键势力。"}
+    },
+    {
+      "id": "p_xuhai",
+      "name": "徐海",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["竞争"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["倭寇势力代表之一，活跃东南沿海（嘉靖）。"],
+      "bioByEra": {"jiajing": "与海盗势力关联，制造海防压力。"}
+    },
+    {
+      "id": "p_wo_kou",
+      "name": "倭寇",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "东南沿海",
+      "roles": ["竞争"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期的东南海患统称，逼迫朝廷推进海防改革（嘉靖）。"],
+      "bioByEra": {"jiajing": "形成严重海患，促成海防整顿。"}
+    },
+    {
+      "id": "p_liujin",
+      "name": "刘瑾",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["zhengde"],
+      "relations": [],
+      "coreDeeds": ["正德时期宦权人物，权势熏天，后遭清算（正德）。"],
+      "bioByEra": {"zhengde": "掌权期间影响政局，最终伏法。"}
+    },
+    {
+      "id": "p_qianning",
+      "name": "钱宁",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["zhengde"],
+      "relations": [],
+      "coreDeeds": ["正德时期权势人物，参与宦权网络（正德）。"],
+      "bioByEra": {"zhengde": "与宦权集团联动，影响政务。"}
+    },
+    {
+      "id": "p_zhangyong",
+      "name": "张永",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["zhengde"],
+      "relations": [],
+      "coreDeeds": ["正德时期宦权人物，权力体系中的要员（正德）。"],
+      "bioByEra": {"zhengde": "参与宦权体系运行。"}
+    },
+    {
+      "id": "p_jiangbin",
+      "name": "江彬",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["zhengde"],
+      "relations": [],
+      "coreDeeds": ["正德时期权势人物，参与政务干预（正德）。"],
+      "bioByEra": {"zhengde": "在权力结构中活跃。"}
+    },
+    {
+      "id": "p_wangshouren",
+      "name": "王守仁",
+      "styleName": "阳明",
+      "posthumousTitle": null,
+      "origin": "浙江",
+      "roles": ["将帅"],
+      "eraTags": ["zhengde", "jiajing"],
+      "relations": [],
+      "coreDeeds": ["平定宁王之乱，提倡心学，兼具文武之名（正德/嘉靖）。"],
+      "bioByEra": {
+        "zhengde": "生平履历\n正德（1506-1521）：奉命统兵平定宁王之乱，以谋略与纪律取胜，奠定文武双名。\n核心事迹与时代关联\n军事与政务：统兵平乱、整肃军纪。\n史书评说\n以心学践履与军政能力并著称。\n相关人物\n杨一清、宁王。",
+        "jiajing": "生平履历\n嘉靖（1522-1566）：出仕与讲学并行，推广心学，影响士林与政务理念。\n核心事迹与时代关联\n学术与施政：以知行合一影响官政与学术。\n史书评说\n心学宗师、政事能臣。\n相关人物\n李东阳、俞大猷。"
+      }
+    },
+    {
+      "id": "p_yangyiqing",
+      "name": "杨一清",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "陕西",
+      "roles": ["将帅"],
+      "eraTags": ["zhengde", "jiajing"],
+      "relations": [],
+      "coreDeeds": ["统兵与辅政并行，于边防与政务皆有建树（正德/嘉靖）。"],
+      "bioByEra": {"zhengde": "生平履历\n正德（1506-1521）：在边防与政务上担当，协同统兵与整饬边线。\n核心事迹与时代关联\n边防与政务：兵务与官政协调并举。\n史书评说\n以稳健有为、统筹见称。\n相关人物\n王守仁、仇鸾。", "jiajing": "生平履历\n嘉靖（1522-1566）：继续参与政务与边务，推动制度与防线完善。\n核心事迹与时代关联\n制度与防线：完善官政与边防机制。\n相关人物\n李东阳、俞大猷。"}
+    },
+    {
+      "id": "p_qiuluan",
+      "name": "仇鸾",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期武将，后期因政争获罪（嘉靖）。"],
+      "bioByEra": {"jiajing": "任军事要职，后罹祸。"}
+    },
+    {
+      "id": "p_zengxi",
+      "name": "曾铣",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期军政人物，涉及边防事务（嘉靖）。"],
+      "bioByEra": {"jiajing": "参与军政与边防。"}
+    },
+    {
+      "id": "p_xuwei",
+      "name": "徐渭",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "浙江",
+      "roles": ["将帅"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期文士兼军务参与者，兼具策论与军务（嘉靖）。"],
+      "bioByEra": {"jiajing": "以文名著称，亦参与军务。"}
+    },
+    {
+      "id": "p_yudayou",
+      "name": "俞大猷",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "福建",
+      "roles": ["将帅"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["抗倭名将，于东南沿海屡有战功（嘉靖）。"],
+      "bioByEra": {"jiajing": "生平履历\n嘉靖（1522-1566）：于东南沿海多次出征，整饬海防与兵纪，屡有战功。\n核心事迹与时代关联\n海防与战术：海防部署与实战打击。\n史书评说\n以实战名将、整饬军纪著称。\n相关人物\n戚继光、谭纶。"}
+    },
+    {
+      "id": "p_qijiguang",
+      "name": "戚继光",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "山东",
+      "roles": ["将帅"],
+      "eraTags": ["jiajing", "longqing"],
+      "relations": [],
+      "coreDeeds": ["抗倭名将，练兵严整，隆庆时期继续推进海防改革（嘉靖/隆庆）。"],
+      "bioByEra": {"jiajing": "生平履历\n嘉靖（1522-1566）：于东南抗倭立功，整训戚家军，练兵严整。\n核心事迹与时代关联\n军事：练兵与战术改革、海防部署。\n史书评说\n以严明军纪、实战成效著称。\n轶事典故\n军中以诗文振士气。", "longqing": "生平履历\n隆庆（1567-1572）：推行海防整顿与练兵，配合谭纶推进沿海防务体系。\n核心事迹与时代关联\n海防改革：练兵与沿海防务协同。\n相关人物\n谭纶、俞大猷。"}
+    },
+    {
+      "id": "p_tanlun",
+      "name": "谭纶",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["longqing"],
+      "relations": [],
+      "coreDeeds": ["隆庆时期重要将领，与戚继光协同推进海防（隆庆）。"],
+      "bioByEra": {"longqing": "生平履历\n隆庆（1567-1572）：与戚继光协同推进海防改革与沿海部署，完善练兵与防务协同。\n核心事迹与时代关联\n海防改革：练兵、沿海防务协同推进。\n史书评说\n以协同统筹能力著称。\n相关人物\n戚继光、俞大猷。"}
+    },
+    {
+      "id": "p_yinzhengmao",
+      "name": "殷正茂",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["longqing"],
+      "relations": [],
+      "coreDeeds": ["隆庆时期将领，与海防整顿相关（隆庆）。"],
+      "bioByEra": {"longqing": "参与海防整顿。"}
+    },
+    {
+      "id": "p_wangchonggu",
+      "name": "王崇古",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期将领，参与军务与边防（嘉靖）。"],
+      "bioByEra": {"jiajing": "参与军务与边防。"}
+    },
+    {
+      "id": "p_wangshu",
+      "name": "王恕",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治时期文臣，参与吏治与制度修复（弘治）。"],
+      "bioByEra": {"hongzhi": "在内政修复与制度完善上有贡献。"}
+    },
+    {
+      "id": "p_mawensheng",
+      "name": "马文升",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治时期文臣，参与政务与吏治（弘治）。"],
+      "bioByEra": {"hongzhi": "在政务中发挥作用。"}
+    },
+    {
+      "id": "p_xieqian",
+      "name": "谢迁",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治时期文臣，参与内阁与政务（弘治）。"],
+      "bioByEra": {"hongzhi": "内阁与政务要员。"}
+    },
+    {
+      "id": "p_liujian",
+      "name": "刘建",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治时期文臣，参与政务与制度（弘治）。"],
+      "bioByEra": {"hongzhi": "在制度与政务中任职。"}
+    },
+    {
+      "id": "p_lidongyang",
+      "name": "李东阳",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治时期内阁重臣，文治代表人物（弘治）。"],
+      "bioByEra": {"hongzhi": "文治代表，内阁重臣。"}
+    },
+    {
+      "id": "p_liudaxia",
+      "name": "刘大夏",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治时期文臣，参与政务与边务（弘治）。"],
+      "bioByEra": {"hongzhi": "在政务与边务上有贡献。"}
+    },
+    {
+      "id": "p_limengyang",
+      "name": "李梦阳",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治时期文人官员，参与文化与政务（弘治）。"],
+      "bioByEra": {"hongzhi": "在文化与政务上活跃。"}
+    },
+    {
+      "id": "p_hanwen",
+      "name": "韩文",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治时期文臣，参与政务（弘治）。"],
+      "bioByEra": {"hongzhi": "参与政务。"}
+    },
+    {
+      "id": "p_chengminzheng",
+      "name": "程敏政",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治时期文臣，参与文化与制度（弘治）。"],
+      "bioByEra": {"hongzhi": "文化与制度层面建树。"}
+    },
+    {
+      "id": "p_tangyin",
+      "name": "唐寅",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "苏州",
+      "roles": ["文臣"],
+      "eraTags": ["hongzhi"],
+      "relations": [],
+      "coreDeeds": ["弘治时期文人画家，于文化领域贡献突出（弘治）。"],
+      "bioByEra": {"hongzhi": "以文艺著称，文化代表。"}
+    },
+    {
+      "id": "p_yangtinghe",
+      "name": "杨廷和",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖初年内阁首辅，参与大礼议与政务（嘉靖）。"],
+      "bioByEra": {"jiajing": "大礼议关键人物之一。"}
+    },
+    {
+      "id": "p_yangshen",
+      "name": "杨慎",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期文臣，参与政务与学术（嘉靖）。"],
+      "bioByEra": {"jiajing": "文臣集团成员。"}
+    },
+    {
+      "id": "p_lishi",
+      "name": "李时",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期文臣，参与政务（嘉靖）。"],
+      "bioByEra": {"jiajing": "参与政务。"}
+    },
+    {
+      "id": "p_guoxun",
+      "name": "郭勋",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期勋臣，参与军政与政务（嘉靖）。"],
+      "bioByEra": {"jiajing": "在军政与政务上活跃。"}
+    },
+    {
+      "id": "p_zhangcuo",
+      "name": "张璁",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期内阁人物，参与政务与礼制（嘉靖）。"],
+      "bioByEra": {"jiajing": "在礼制与政务中居要职。"}
+    },
+    {
+      "id": "p_xiayan",
+      "name": "夏言",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期内阁人物，参与政务（嘉靖）。"],
+      "bioByEra": {"jiajing": "内阁要员。"}
+    },
+    {
+      "id": "p_fangxianfu",
+      "name": "方献夫",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期文臣，参与政务与学术（嘉靖）。"],
+      "bioByEra": {"jiajing": "参与政务与学术。"}
+    },
+    {
+      "id": "p_yangbo",
+      "name": "杨博",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期文臣，参与政务（嘉靖）。"],
+      "bioByEra": {"jiajing": "参与政务。"}
+    },
+    {
+      "id": "p_lubing",
+      "name": "陆炳",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期文臣/锦衣卫指挥，参与权力结构（嘉靖）。"],
+      "bioByEra": {"jiajing": "在权力结构中活跃。"}
+    },
+    {
+      "id": "p_yangjisheng",
+      "name": "杨继盛",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期直谏官员，因言获祸（嘉靖）。"],
+      "bioByEra": {"jiajing": "以直谏著称。"}
+    },
+    {
+      "id": "p_shenlian",
+      "name": "沈鍊",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖时期文臣，参与政务（嘉靖）。"],
+      "bioByEra": {"jiajing": "在政务中任事。"}
+    },
+    {
+      "id": "p_hairui",
+      "name": "海瑞",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "海南",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing", "longqing"],
+      "relations": [],
+      "coreDeeds": ["以清廉刚直著称，于嘉靖末与隆庆初活跃（嘉靖/隆庆）。"],
+      "bioByEra": {"jiajing": "嘉靖末直谏。", "longqing": "隆庆初继续任事。"}
+    },
+    {
+      "id": "p_tangshunzhi",
+      "name": "唐顺之",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing", "longqing"],
+      "relations": [],
+      "coreDeeds": ["文臣与学者，于嘉靖/隆庆时期参与政务与学术（嘉靖/隆庆）。"],
+      "bioByEra": {"jiajing": "学术与政务并行。", "longqing": "继续参与政务。"}
+    },
+    {
+      "id": "p_xujie",
+      "name": "徐阶",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖中后期首辅，主导多项政务（嘉靖）。"],
+      "bioByEra": {"jiajing": "首辅，主政多年。"}
+    },
+    {
+      "id": "p_lichunfang",
+      "name": "李春芳",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["jiajing", "longqing"],
+      "relations": [],
+      "coreDeeds": ["嘉靖末与隆庆初内阁人物，参与政务（嘉靖/隆庆）。"],
+      "bioByEra": {"jiajing": "内阁要员。", "longqing": "继续参政。"}
+    },
+    {
+      "id": "p_gaogong",
+      "name": "高拱",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["longqing"],
+      "relations": [],
+      "coreDeeds": ["隆庆时期首辅之一，参与隆庆和议与政务（隆庆）。"],
+      "bioByEra": {"longqing": "首辅，推动政务。"}
+    },
+    {
+      "id": "p_guopo",
+      "name": "郭朴",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["longqing"],
+      "relations": [],
+      "coreDeeds": ["隆庆时期文臣，参与政务（隆庆）。"],
+      "bioByEra": {"longqing": "参与政务。"}
+    },
+    {
+      "id": "p_huyingjia",
+      "name": "胡应嘉",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["longqing"],
+      "relations": [],
+      "coreDeeds": ["隆庆时期文臣，参与政务（隆庆）。"],
+      "bioByEra": {"longqing": "参与政务。"}
+    },
+    {
+      "id": "p_chenyiqin",
+      "name": "陈以勤",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["longqing"],
+      "relations": [],
+      "coreDeeds": ["隆庆时期文臣，参与政务（隆庆）。"],
+      "bioByEra": {"longqing": "参与政务。"}
+    },
+    {
+      "id": "p_zhaozhenji",
+      "name": "赵贞吉",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["longqing"],
+      "relations": [],
+      "coreDeeds": ["隆庆时期文臣，参与政务（隆庆）。"],
+      "bioByEra": {"longqing": "参与政务。"}
+    },
+    {
+      "id": "p_lishizhen",
+      "name": "李时珍",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "湖北",
+      "roles": ["研究"],
+      "eraTags": ["longqing"],
+      "relations": [],
+      "coreDeeds": ["医学与本草研究者，编纂《本草纲目》相关工作在隆庆/万历前后（隆庆）。"],
+      "bioByEra": {"longqing": "从事医学与本草研究。"}
+    },
+    {
+      "id": "p_panjixun",
+      "name": "潘季驯",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "江苏",
+      "roles": ["研究"],
+      "eraTags": ["longqing"],
+      "relations": [],
+      "coreDeeds": ["水利与河道治理专家，提出与实施河工方案（隆庆）。"],
+      "bioByEra": {"longqing": "从事水利工程与治理研究。"}
+    },
+    {
+      "id": "p_zhuyijun",
+      "name": "朱翊钧",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历帝，在位期间经历三大征与东林党争（万历）。"],
+      "bioByEra": {"wanli": "长期在位，军政与党争交织。"}
+    },
+    {
+      "id": "p_fengbao",
+      "name": "冯保",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期宦权人物，对政务产生深刻影响（万历）。"],
+      "bioByEra": {"wanli": "掌权影响政务与人事。"}
+    },
+    {
+      "id": "p_liguifei",
+      "name": "李贵妃",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["后宫"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期后宫人物，于人事与政务产生影响（万历）。"],
+      "bioByEra": {"wanli": "在后宫体系中具有影响力。"}
+    },
+    {
+      "id": "p_zhengguifei",
+      "name": "郑贵妃",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["后宫"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期后宫人物，对政务取向与人事有影响（万历）。"],
+      "bioByEra": {"wanli": "受宠并影响朝政取向。"}
+    },
+    {
+      "id": "p_maguei",
+      "name": "麻贵",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期武将，参与边务与战事（万历）。"],
+      "bioByEra": {"wanli": "生平履历\n万历（1573-1620）：在辽东与东南相关战事中任职，协同防务与出击。\n核心事迹与时代关联\n边务协同：防线与出击组织。\n史书评说\n以执行力与稳健著称。\n相关人物\n李成梁、李如松。"}
+    },
+    {
+      "id": "p_liuting",
+      "name": "刘綎",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期武将，参与东南海防与战事（万历）。"],
+      "bioByEra": {"wanli": "参与海防与战事。"}
+    },
+    {
+      "id": "p_dengzilong",
+      "name": "邓子龙",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期武将，参与海防与援朝相关战事（万历）。"],
+      "bioByEra": {"wanli": "在海防与援朝中立功。"}
+    },
+    {
+      "id": "p_lichengliang",
+      "name": "李成梁",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "辽宁",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["辽东重镇将领，参与边防与辽东战事（万历）。"],
+      "bioByEra": {"wanli": "生平履历\n万历（1573-1620）：镇守辽东要地，组织边防与出击，参与多次辽东战事。\n核心事迹与时代关联\n边防组织：据点与巡哨布置，出击与防守平衡。\n史书评说\n以灵活防守与区域统筹闻名。\n相关人物\n麻贵、熊廷弼、李如松。"}
+    },
+    {
+      "id": "p_chenlin",
+      "name": "陈璘",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "广东",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["援朝抗倭相关将领，参与海战（万历）。"],
+      "bioByEra": {"wanli": "参与援朝海战。"}
+    },
+    {
+      "id": "p_lishunchen",
+      "name": "李舜臣",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "朝鲜",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["朝鲜将领，于援朝抗倭时期参与海战（万历）。"],
+      "bioByEra": {"wanli": "朝鲜名将，海战关键人物。"}
+    },
+    {
+      "id": "p_lirusong",
+      "name": "李如松",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "辽宁",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["参与援朝抗倭与辽东战事（万历）。"],
+      "bioByEra": {"wanli": "生平履历\n万历（1573-1620）：于援朝抗倭与辽东战事中任将，指挥出击与守御，协同边防体系。\n核心事迹与时代关联\n援朝与辽东：出击与防守平衡。\n史书评说\n以敢战善攻著称。\n相关人物\n李成梁、陈璘、杨镐。"}
+    },
+    {
+      "id": "p_yuanyingtai",
+      "name": "袁应泰",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["参与边务与战事（万历）。"],
+      "bioByEra": {"wanli": "在战事中任职。"}
+    },
+    {
+      "id": "p_wanghuazhen",
+      "name": "王化贞",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["辽东相关战事与边务（万历）。"],
+      "bioByEra": {"wanli": "参与辽东战事。"}
+    },
+    {
+      "id": "p_xiongtinbi",
+      "name": "熊廷弼",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["辽东边务关键人物，参与防务与整顿（万历）。"],
+      "bioByEra": {"wanli": "生平履历\n万历（1573-1620）：整顿辽东防务，尝试修复边线，组织据点与巡哨。\n核心事迹与时代关联\n防线整顿：据点建设、巡哨布置。\n史书评说\n以整顿能力与谋划著称。\n相关人物\n李成梁、王化贞。"}
+    },
+    {
+      "id": "p_yanghao",
+      "name": "杨镐",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["将帅"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期将领，参与援朝与辽东战事（万历）。"],
+      "bioByEra": {"wanli": "参与战事。"}
+    },
+    {
+      "id": "p_maziqiang",
+      "name": "马自强",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期文臣，参与政务（万历）。"],
+      "bioByEra": {"wanli": "参与政务。"}
+    },
+    {
+      "id": "p_guxiancheng",
+      "name": "顾宪成",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "江苏无锡",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["东林领袖之一，倡清议，推动学政与政论（万历）。"],
+      "bioByEra": {"wanli": "生平履历\n万历（1573-1620）：倡清议、主张学政，组织东林讲学与政论，推动政治风尚。\n核心事迹与时代关联\n学政与政论：东林清议与政治影响。\n史书评说\n以士林领袖与清议代表著称。\n轶事典故\n以讲学风行惠山东林书院闻名。\n相关人物\n赵南星、王锡爵。"}
+    },
+    {
+      "id": "p_zhaonanxing",
+      "name": "赵南星",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "江苏",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["东林党人，参与政务与学术争议（万历）。"],
+      "bioByEra": {"wanli": "东林党人，参与政务。"}
+    },
+    {
+      "id": "p_wangxijue",
+      "name": "王锡爵",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期首辅之一，主政要务（万历）。"],
+      "bioByEra": {"wanli": "首辅，主政。"}
+    },
+    {
+      "id": "p_lvdiaoyang",
+      "name": "吕调阳",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期文臣，参与政务（万历）。"],
+      "bioByEra": {"wanli": "参与政务。"}
+    },
+    {
+      "id": "p_zhangsiwei",
+      "name": "张四维",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期内阁人物，参与政务（万历）。"],
+      "bioByEra": {"wanli": "内阁人物。"}
+    },
+    {
+      "id": "p_shenweijing",
+      "name": "沈惟敬",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期文臣，涉辽东与对外事务（万历）。"],
+      "bioByEra": {"wanli": "参与辽东与对外。"}
+    },
+    {
+      "id": "p_shenshihang",
+      "name": "申时行",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期首辅之一，主持政务（万历）。"],
+      "bioByEra": {"wanli": "生平履历\n万历（1573-1620）：为首辅之一，主持政务与协调内外，推进行政运作。\n核心事迹与时代关联\n政务主导：内阁协调与政策执行。\n史书评说\n以主持政务、协调有方著称。\n相关人物\n王锡爵、沈一贯。"}
+    },
+    {
+      "id": "p_wangjiaping",
+      "name": "王家屏",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期文臣，参与政务（万历）。"],
+      "bioByEra": {"wanli": "参与政务。"}
+    },
+    {
+      "id": "p_shenyiguan",
+      "name": "沈一贯",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["万历时期内阁人物，参与政务与权力结构（万历）。"],
+      "bioByEra": {"wanli": "内阁人物，参与权力结构。"}
+    },
+    {
+      "id": "p_zuoguangdou",
+      "name": "左光斗",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["wanli"],
+      "relations": [],
+      "coreDeeds": ["东林党人代表之一，直言时政（万历）。"],
+      "bioByEra": {"wanli": "东林党人，直言时政。"}
+    },
+    {
+      "id": "p_zhuchangluo",
+      "name": "朱常洛",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["taichang"],
+      "relations": [],
+      "coreDeeds": ["泰昌帝，在位甚短，承接万历末政务（泰昌）。"],
+      "bioByEra": {"taichang": "在位期间短暂，政务延续万历末格局。"}
+    },
+    {
+      "id": "p_zhuyouxiao",
+      "name": "朱由校",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["tianqi"],
+      "relations": [],
+      "coreDeeds": ["天启帝，时期政局由阉党与辽东战事主导（天启）。"],
+      "bioByEra": {"tianqi": "阉权主政与辽东战事并行。"}
+    },
+    {
+      "id": "p_zhuyoujian",
+      "name": "朱由检",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "北京",
+      "roles": ["帝王"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["崇祯帝，力图整顿，最终甲申之变而亡（崇祯）。"],
+      "bioByEra": {"chongzhen": "改革与战事交织，明亡于甲申。"}
+    },
+    {
+      "id": "p_nuerhachi",
+      "name": "努尔哈赤",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "建州",
+      "roles": ["竞争"],
+      "eraTags": ["wanli", "tianqi"],
+      "relations": [],
+      "coreDeeds": ["后金建立者，辽东战事主导者（万历/天启）。"],
+      "bioByEra": {"wanli": "崛起辽东，扩张势力。", "tianqi": "持续进逼辽东。"}
+    },
+    {
+      "id": "p_huangtaiji",
+      "name": "皇太极",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "盛京",
+      "roles": ["竞争"],
+      "eraTags": ["tianqi", "chongzhen"],
+      "relations": [],
+      "coreDeeds": ["后金统治者，继续推进辽东战事与制度（天启/崇祯）。"],
+      "bioByEra": {"tianqi": "承接后金扩张。", "chongzhen": "加剧辽东压力。"}
+    },
+    {
+      "id": "p_gaoyingxiang",
+      "name": "高迎祥",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "陕西",
+      "roles": ["竞争"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["农民军领袖之一，参与北方战局（崇祯）。"],
+      "bioByEra": {"chongzhen": "与李自成等形成叛乱势力。"}
+    },
+    {
+      "id": "p_lizicheng",
+      "name": "李自成",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "陕西米脂",
+      "roles": ["竞争"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["起义领袖，入京导致甲申之变（崇祯）。"],
+      "bioByEra": {"chongzhen": "入京推翻明统治。"}
+    },
+    {
+      "id": "p_zhangxianzhong",
+      "name": "张献忠",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "陕西",
+      "roles": ["竞争"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["起义领袖，于西南建立政权（崇祯）。"],
+      "bioByEra": {"chongzhen": "在西南形成割据。"}
+    },
+    {
+      "id": "p_weizhongxian",
+      "name": "魏忠贤",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "河北",
+      "roles": ["奸臣"],
+      "eraTags": ["tianqi"],
+      "relations": [],
+      "coreDeeds": ["阉党核心人物，专权把持朝政（天启）。"],
+      "bioByEra": {"tianqi": "打压东林，操弄权力。"}
+    },
+    {
+      "id": "p_cuichengxiu",
+      "name": "崔呈秀",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["tianqi"],
+      "relations": [],
+      "coreDeeds": ["阉党骨干，参与政治迫害（天启）。"],
+      "bioByEra": {"tianqi": "助阉党迫害士人。"}
+    },
+    {
+      "id": "p_xuxianchiun",
+      "name": "许显纯",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["tianqi"],
+      "relations": [],
+      "coreDeeds": ["阉党成员，参与权力运作（天启）。"],
+      "bioByEra": {"tianqi": "阉党成员。"}
+    },
+    {
+      "id": "p_gaoqiqian",
+      "name": "高起潜",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["tianqi"],
+      "relations": [],
+      "coreDeeds": ["阉党相关人物，参与政务（天启）。"],
+      "bioByEra": {"tianqi": "参与政务。"}
+    },
+    {
+      "id": "p_wangchengen",
+      "name": "王承恩",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["奸臣"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["崇祯时期内廷人物，参与权力活动（崇祯）。"],
+      "bioByEra": {"chongzhen": "内廷权力相关。"}
+    },
+    {
+      "id": "p_wusangui",
+      "name": "吴三桂",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "山西代州",
+      "roles": ["将帅"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["辽东与京师防务相关将领（崇祯）。"],
+      "bioByEra": {"chongzhen": "参与京师与边防。"}
+    },
+    {
+      "id": "p_mangui",
+      "name": "满桂",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "辽东",
+      "roles": ["将帅"],
+      "eraTags": ["wanli", "tianqi"],
+      "relations": [],
+      "coreDeeds": ["辽东战事相关将领（万历/天启）。"],
+      "bioByEra": {"wanli": "参与辽东战事。", "tianqi": "持续守备。"}
+    },
+    {
+      "id": "p_yuanchonghuan",
+      "name": "袁崇焕",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "广东新会",
+      "roles": ["将帅"],
+      "eraTags": ["tianqi", "chongzhen"],
+      "relations": [],
+      "coreDeeds": ["守宁远、督师辽东（天启/崇祯）。"],
+      "bioByEra": {"tianqi": "宁远大捷。", "chongzhen": "督师辽东。"}
+    },
+    {
+      "id": "p_maowenlong",
+      "name": "毛文龙",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "辽东铁岭",
+      "roles": ["将帅"],
+      "eraTags": ["tianqi"],
+      "relations": [],
+      "coreDeeds": ["东江镇相关将领，牵制后金（天启）。"],
+      "bioByEra": {"tianqi": "在东江镇活动。"}
+    },
+    {
+      "id": "p_zudashou",
+      "name": "祖大寿",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "辽东",
+      "roles": ["将帅"],
+      "eraTags": ["tianqi", "chongzhen"],
+      "relations": [],
+      "coreDeeds": ["辽东将领，参与松锦相关战事（天启/崇祯）。"],
+      "bioByEra": {"tianqi": "守备辽东。", "chongzhen": "参与松锦战事。"}
+    },
+    {
+      "id": "p_zuoliangyu",
+      "name": "左良玉",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "湖南",
+      "roles": ["将帅"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["湖广相关将领，参与明末战事（崇祯）。"],
+      "bioByEra": {"chongzhen": "参与湖广战事。"}
+    },
+    {
+      "id": "p_caowenzhao",
+      "name": "曹文诏",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "河南",
+      "roles": ["将帅"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["参与明末军务（崇祯）。"],
+      "bioByEra": {"chongzhen": "参与军务。"}
+    },
+    {
+      "id": "p_sunchuanting",
+      "name": "孙传庭",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "陕西",
+      "roles": ["将帅"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["关中相关战事将领（崇祯）。"],
+      "bioByEra": {"chongzhen": "在关中作战。"}
+    },
+    {
+      "id": "p_hongchengchou",
+      "name": "洪承畴",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "福建福州",
+      "roles": ["将帅"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["明末督师，与辽东战事相关（崇祯）。"],
+      "bioByEra": {"chongzhen": "明末督师辽东。"}
+    },
+    {
+      "id": "p_fangcongzhe",
+      "name": "方从哲",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "浙江",
+      "roles": ["文臣"],
+      "eraTags": ["tianqi"],
+      "relations": [],
+      "coreDeeds": ["天启时期内阁人物，参与政务（天启）。"],
+      "bioByEra": {"tianqi": "参与政务。"}
+    },
+    {
+      "id": "p_wangwenyan",
+      "name": "汪文言",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "江苏",
+      "roles": ["文臣"],
+      "eraTags": ["tianqi"],
+      "relations": [],
+      "coreDeeds": ["与东林相关，参与政务（天启）。"],
+      "bioByEra": {"tianqi": "参与政务与清议。"}
+    },
+    {
+      "id": "p_yexianggao",
+      "name": "叶向高",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "福建",
+      "roles": ["文臣"],
+      "eraTags": ["wanli", "tianqi"],
+      "relations": [],
+      "coreDeeds": ["首辅之一，于万历末与天启初参政（万历/天启）。"],
+      "bioByEra": {"wanli": "参政。", "tianqi": "首辅参政。"}
+    },
+    {
+      "id": "p_yanglian",
+      "name": "杨涟",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "江苏",
+      "roles": ["文臣"],
+      "eraTags": ["tianqi"],
+      "relations": [],
+      "coreDeeds": ["直谏魏忠贤，被害（天启）。"],
+      "bioByEra": {"tianqi": "直谏阉权。"}
+    },
+    {
+      "id": "p_gudazhang",
+      "name": "顾大章",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["tianqi"],
+      "relations": [],
+      "coreDeeds": ["参与政务与清议（天启）。"],
+      "bioByEra": {"tianqi": "参与清议。"}
+    },
+    {
+      "id": "p_qianqianyi",
+      "name": "钱谦益",
+      "styleName": "牧斋",
+      "posthumousTitle": null,
+      "origin": "江苏常熟",
+      "roles": ["文臣"],
+      "eraTags": ["tianqi", "chongzhen"],
+      "relations": [],
+      "coreDeeds": ["东林领袖之一，学术与政务影响显著（天启/崇祯）。"],
+      "bioByEra": {"tianqi": "领袖之一。", "chongzhen": "继续参政。"}
+    },
+    {
+      "id": "p_wentiren",
+      "name": "温体仁",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["tianqi", "chongzhen"],
+      "relations": [],
+      "coreDeeds": ["内阁人物，参与政务（天启/崇祯）。"],
+      "bioByEra": {"tianqi": "内阁人物。", "chongzhen": "继续参政。"}
+    },
+    {
+      "id": "p_zhouyanru",
+      "name": "周延儒",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["tianqi", "chongzhen"],
+      "relations": [],
+      "coreDeeds": ["内阁人物，参与政务（天启/崇祯）。"],
+      "bioByEra": {"tianqi": "内阁人物。", "chongzhen": "继续参政。"}
+    },
+    {
+      "id": "p_xiongwencan",
+      "name": "熊文灿",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["参与明末政务与军事协调（崇祯）。"],
+      "bioByEra": {"chongzhen": "参与政务与协调。"}
+    },
+    {
+      "id": "p_luxiangsheng",
+      "name": "卢象升",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "未知",
+      "roles": ["文臣"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["明末官员，参与对敌战事协调（崇祯）。"],
+      "bioByEra": {"chongzhen": "生平履历\n崇祯（1628-1644）：在明末对敌战事中协调军政，兼顾前线与政务。\n核心事迹与时代关联\n战事协调：军政配合与前线组织。\n史书评说\n以勤敏有为见称。\n相关人物\n杨嗣昌、孙传庭。"}
+    },
+    {
+      "id": "p_yangsichang",
+      "name": "杨嗣昌",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "湖南",
+      "roles": ["文臣"],
+      "eraTags": ["chongzhen"],
+      "relations": [],
+      "coreDeeds": ["崇祯时期官员，参与军事与政务（崇祯）。"],
+      "bioByEra": {"chongzhen": "生平履历\n崇祯（1628-1644）：参与军政并行，组织战事与政务协调，尝试整顿军制。\n核心事迹与时代关联\n军政并行：战事组织与制度整饬。\n史书评说\n以组织力与执行力著称。\n相关人物\n卢象升、孙传庭。"}
+    }
+    ,
+    {
+      "id": "p_sunchengzong",
+      "name": "孙承宗",
+      "styleName": null,
+      "posthumousTitle": null,
+      "origin": "河北",
+      "roles": ["文臣", "将帅"],
+      "eraTags": ["tianqi", "chongzhen"],
+      "relations": [],
+      "coreDeeds": [
+        "整顿辽东防务，筹划边备，前后与宁远等要地防守协同（天启/崇祯）。"
+      ],
+      "bioByEra": {
+        "tianqi": "任边务要职，整饬军备与防线，稳定辽东局势。",
+        "chongzhen": "继续筹划辽东防务，推进整顿与部署。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_hongwu_system",
+      "title": "洪武建制",
+      "eraIds": ["hongwu"],
+      "summary": "明初制度与法制的确立，中央集权加强，设锦衣卫，整饬吏治。"
+    },
+    {
+      "id": "event_jingnan",
+      "title": "靖难之役",
+      "eraIds": ["jianwen", "yongle"],
+      "summary": "燕王朱棣以清君侧为名对建文朝发动战争，最终夺位建立永乐朝。"
+    },
+    {
+      "id": "event_zhenghe",
+      "title": "郑和下西洋",
+      "eraIds": ["yongle"],
+      "summary": "大型海外航行与外交活动，增强国际交流与国家威望。"
+    },
+    {
+      "id": "event_yongle_dadian",
+      "title": "《永乐大典》修纂",
+      "eraIds": ["yongle"],
+      "summary": "大型类书编纂工程，汇集典籍，展现文化整合能力。"
+    },
+    {
+      "id": "event_jinyiwei",
+      "title": "锦衣卫设立",
+      "eraIds": ["hongwu"],
+      "summary": "洪武时期设立的特务与监察机构，用以加强皇权、情报与执法，体现明初法度与控制力。"
+    }
+    ,
+    {
+      "id": "event_shenjiying",
+      "title": "神机营设立",
+      "eraIds": ["yongle"],
+      "summary": "永乐时期火器部队与军备编制发展，提升战时火力与攻守能力。"
+    },
+    {
+      "id": "event_duoyansanwei",
+      "title": "朵颜三卫设置",
+      "eraIds": ["yongle"],
+      "summary": "东北边防体系建设，在辽东地区设置三卫，强化边疆军事治理。"
+    },
+    {
+      "id": "event_wujunying",
+      "title": "五军营设立",
+      "eraIds": ["yongle"],
+      "summary": "中央禁军编制完善，建立五军营，规范训练与战备，提升统御效率。"
+    },
+    {
+      "id": "event_sanqianying",
+      "title": "三千营设立",
+      "eraIds": ["yongle"],
+      "summary": "精锐营制建设，承担京师与宫城防务，保证首都安全。"
+    },
+    {
+      "id": "event_dongchang",
+      "title": "东厂设立",
+      "eraIds": ["yongle"],
+      "summary": "永乐时期特务机构设立，扩展情报与监察体系，配合皇权治理。"
+    },
+    {
+      "id": "event_xichang",
+      "title": "西厂设立",
+      "eraIds": ["chenghua"],
+      "summary": "成化时期设立的特务与监察机构，与东厂并行，扩展情报与监察体系。"
+    },
+    {
+      "id": "event_ningwang",
+      "title": "宁王之乱",
+      "eraIds": ["zhengde"],
+      "summary": "正德时期宁王勾连叛乱，最终被平定，影响政局与军制。"
+    },
+    {
+      "id": "event_longqing_heyi",
+      "title": "隆庆和议",
+      "eraIds": ["longqing"],
+      "summary": "与蒙古达成和议，缓解北边边患，恢复互市，影响对外关系。"
+    },
+    {
+      "id": "event_wanli_sanda",
+      "title": "万历三大征",
+      "eraIds": ["wanli"],
+      "summary": "援朝抗倭、宁夏之役、播州之役三大战事，深刻影响财政与军政。"
+    },
+    {
+      "id": "event_sarhu",
+      "title": "萨尔浒之战",
+      "eraIds": ["wanli"],
+      "summary": "明与后金在辽东的决定性战役，明军失利，影响辽东局势。"
+    },
+    {
+      "id": "event_donglin",
+      "title": "东林党争",
+      "eraIds": ["wanli", "tianqi"],
+      "summary": "以东林书院为核心的政治与学术力量，与宦权集团长期博弈。"
+    },
+    {
+      "id": "event_yandang",
+      "title": "阉党专政",
+      "eraIds": ["tianqi"],
+      "summary": "魏忠贤把持朝政，打压东林士人，政治生态恶化。"
+    },
+    {
+      "id": "event_ningyuan",
+      "title": "宁远大捷",
+      "eraIds": ["tianqi"],
+      "summary": "袁崇焕守宁远，击退努尔哈赤进攻，振奋军心。"
+    },
+    {
+      "id": "event_songjin",
+      "title": "松锦之战",
+      "eraIds": ["chongzhen"],
+      "summary": "辽东战事关键阶段，明军失利，边防进一步崩溃。"
+    },
+    {
+      "id": "event_jinzhou_weizhan",
+      "title": "锦州围战",
+      "eraIds": ["chongzhen"],
+      "summary": "松锦战役阶段之一，锦州要地遭围攻，防线受压。"
+    },
+    {
+      "id": "event_songshan_zhanzheng",
+      "title": "松山之战",
+      "eraIds": ["chongzhen"],
+      "summary": "松山要点攻防，明军失利，影响辽东全局。"
+    },
+    {
+      "id": "event_xingshan_zhanzheng",
+      "title": "杏山之战",
+      "eraIds": ["chongzhen"],
+      "summary": "杏山一线战斗失利，战线进一步崩溃。"
+    },
+    {
+      "id": "event_liujunzi_an",
+      "title": "六君子案",
+      "eraIds": ["tianqi"],
+      "summary": "阉党迫害直谏士人事件，东林代表人物被害，政局恶化。"
+    },
+    {
+      "id": "event_jiashen",
+      "title": "甲申之变",
+      "eraIds": ["chongzhen"],
+      "summary": "李自成入京，崇祯帝自缢，明朝覆灭。"
+    }
+  ]
+}
